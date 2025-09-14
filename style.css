@@ -1,0 +1,93 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+ }
+ body {
+    background: linear-gradient(to right, #89f7fe, #66a6ff);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ }
+ header {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+ }
+ main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+ }
+ .weather-container {
+   display: flex;
+   gap: 60px;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ .weather-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px 50px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    animation: fade-in 1s  ease-in-out;
+ }
+  .weather-card h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+   .weather-card i {
+    font-size: 4rem;
+    color: #fbc02d;
+    margin-bottom: 15px;
+   }
+   .weather-card .fa-cloud-showers-heavy {
+      color: #2196f3;
+   }
+   .weather-card .fa-snowflake {
+      color: #00bcd4;
+   }
+   .temperature {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+   }
+   .description {
+    font-size: 1.2rem;
+    color: #555;
+   }
+   footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+   }
+   @keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+   }
+   @media (max-width:600px) {
+    .weather-card {
+        padding: 20px;
+        width: 90%;
+    }
+     .weather-card h2 {
+        font-size: 1.5rem;
+     }
+     .temperature {
+        font-size: 2rem;
+     }
+   }
