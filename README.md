@@ -10,7 +10,7 @@ It displays weather cards for different countries with icons representing the co
 - Easy to customize and add more countries  
 
 ## 📸 Demo
-👉 [Live Demo](https://youcef303.github.io/Weather-App/)  
+👉 [Live Demo]( https://youcef303.github.io/Weather-Web/)  
 
 ## 🛠️ Technologies Used
 - **HTML5**  
@@ -21,6 +21,8 @@ It displays weather cards for different countries with icons representing the co
 1. Clone the repository  
    ```bash
    git clone https://github.com/YOUCEF303/Weather-App.git
-If you have any questions, suggestions, or feedback, feel free to reach out:
+.If you have any questions, suggestions, or feedback, feel free to reach out:
+
 📧 Email: youcef303git@gmail.com
+
 🐙 GitHub: YOUCEF303
